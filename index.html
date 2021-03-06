@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Skinology</title>
+        <meta name="description" content="Skinology Product Landing Page">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <!-- Header -->
+            <header id="header">
+                <div class="logo">
+                    <img id="header-img" src="images/skinology-logo.jpg" alt="skinology logo" width=200px;/>
+                </div>
+            
+            <!-- Navigation Bar -->
+            <nav id="nav-bar">
+                <li><a class="nav-link" href="#Home">Home</a></li>
+                <li><a class="nav-link" href="#Shop">Shop</a></li>
+                <li><a class="nav-link" href="#About">About</a></li>
+                <li><a class="nav-link" href="#Contact">Contact</a></li>
+                <li><a class="nav-link" href="#Shop"><img src="images/sb-white.svg" alt="shopping-cart icon"></a></li>
+            </nav>
+            </header>
+        </div>
+        <main>
+            <!-- Main Section - Home -->
+            <section id="Home" class="home-bg">
+                <div class="container">
+                    <h1 class="home-title">
+                        <span class="title-text">Skinology</span>
+                    </h1>
+                    <h3 class="home-subtitle">
+                        <span class="subtitle-text">Find your True Skin</span>
+                    </h3>
+                    <p class="info">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et explicabo quisquam obcaecati odit atque, ullam nam, deleniti maxime error quibusdam iusto inventore libero vel molestias expedita alias provident? Dolorem, quibusdam.
+                    </p>
+                    <a class="button" href="#Shop">Shop Now</a>
+                </div>
+            </section>
+            <!-- Shopping Section -->
+            <section id="Shop" class="default-grey">
+                <div class="container">
+                    <h2 class="section-title">Featured Items</h2>
+                    <!-- <p class="section-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit!</p> -->
+                    <div class="flex-products">
+                        <div class="grid">
+                            <img 
+                              class="product"
+                              aria-hidden="true"
+                              src="images/product1.jpg" alt="Face lotion"
+                            />
+                            <p class="product-name">Moisture Boost Cleanser</p>
+                            <p class="product-price">$6.70</p>
+                        </div>
+                        <div class="grid">
+                            <img 
+                              class="product"
+                              aria-hidden="true"
+                              src="images/product2.jpg" alt="Lotion with pump"
+                            />
+                            <p class="product-name">Vitamin C Toner</p>
+                            <p class="product-price">$11.30</p>
+                        </div>
+                        <div class="grid">
+                            <img 
+                              class="product"
+                              aria-hidden="true"
+                              src="images/product3.jpg" alt="Lotion tube"
+                            />
+                            <p class="product-name">Snail Night Mask</p>
+                            <p class="product-price">$9.99</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About Skinology Section -->
+            <section id="About" class="default-grey">
+                <div class="container">
+                    <h2 class="section-title">Our Philosophy</h2>
+                    <p class="section-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi animi earum assumenda veritatis magni similique, suscipit, ducimus quidem a, veniam illo dolore laborum consectetur et nulla porro eius iusto quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quo suscipit unde quidem ex ullam odio enim, hic officia deleniti illo, laboriosam dolor vero quaerat placeat reprehenderit quas. Id, sit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        
+                        Odit incidunt maiores quaerat ipsam illum illo eveniet vel atque accusantium quae totam explicabo, provident distinctio iste? Officia saepe molestias illo ratione. </p>
+                    
+                    <div class="video-wrap">
+                        <iframe 
+                        id="video"
+                        height="360"
+                        src="https://www.youtube.com/embed/OxPlCkTKhzY"
+                        allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact Skinology -->
+            <section id="Contact" class="default-reverse">
+                <div class="contact-info">
+                    <div class="grid">
+                        <a class="link" href="#"><p>FAQ</p></a>
+                        <a class="link" href="#"><p>Shipping & Returns</p></a>
+                        <a class="link" href="#"><p>Store Policy</p></a>
+                    </div>
+                    <div class="grid">
+                        <p>Skinology</p>
+                        <p>Tel 123-456-7890</p>
+                        <p>Email info@skinology.com</p>
+                        <div class="sns">
+                            <a class="link" href="#"><p class="sr-only">Skinology Facebook</p><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                            <a class="link" href="#"><p class="sr-only">Skinology Twitter</p><i class=" fab fa-twitter" aria-hidden="true"></i></a>
+                            <a class="link" href="#"><p class="sr-only">Skinology Youtube</p><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <p>Subscribe to Skinology Newsletter</p>
+                        <form
+                          class="contact-form"
+                          id="form"
+                          action="https://www.freecodecamp.com/email-submit">
+                          <label class="sr-only" for="email">Email</label>
+                          <input name="email" type="email" class="form-control" id="email" placeholder="Email" required>
+                          <button type="submit" id="submit" class=submit> Join</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
